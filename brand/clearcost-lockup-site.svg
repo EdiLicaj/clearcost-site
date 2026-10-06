@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" width="300" height="64" fill="none" role="img" aria-label="Clearcost — transparent fulfillment">
+  <defs>
+    <filter id="cc-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.949  0 0 0 0 0.42  0 0 0 0 0.114  0 0 0 .38 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="44" height="44" rx="12" fill="#0B1F3A" filter="url(#cc-glow)"/>
+  <g transform="translate(17 17) scale(0.46875)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12 H51 Q58 12 58 19 V45 Q58 52 51 52 H22 L7.5 34.5 Q5.5 32 7.5 29.5 Z M27 32 A5 5 0 1 0 17 32 A5 5 0 1 0 27 32 Z" fill="#FFFFFF"/>
+    <circle cx="22" cy="32" r="3.2" fill="#F26B1D"/>
+    <path d="M34 26 H48 M34 32 H48 M34 38 H42" stroke="#0B1F3A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="66" y="40" font-family="Manrope, Inter, system-ui, sans-serif" font-size="26" font-weight="800" letter-spacing="-1" fill="#0B1F3A">clear<tspan fill="#F26B1D">cost</tspan></text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 120" width="560" height="120" fill="none" role="img" aria-label="Clearcost — transparent fulfillment">
+  <defs>
+    <filter id="cc-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.949  0 0 0 0 0.42  0 0 0 0 0.114  0 0 0 .38 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="96" height="96" rx="26" fill="#0B1F3A" filter="url(#cc-glow)"/>
+  <g transform="translate(28 28)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12 H51 Q58 12 58 19 V45 Q58 52 51 52 H22 L7.5 34.5 Q5.5 32 7.5 29.5 Z M27 32 A5 5 0 1 0 17 32 A5 5 0 1 0 27 32 Z" fill="#FFFFFF"/>
+    <circle cx="22" cy="32" r="3.2" fill="#F26B1D"/>
+    <path d="M34 26 H48 M34 32 H48 M34 38 H42" stroke="#0B1F3A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="132" y="66" font-family="Manrope, Inter, system-ui, sans-serif" font-size="50" font-weight="800" letter-spacing="-2" fill="#0B1F3A">clear<tspan fill="#F26B1D">cost</tspan></text>
+  <text x="134" y="96" font-family="Manrope, Inter, system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#2E4A74">TRANSPARENT FULFILLMENT</text>
+</svg>

@@ -49,8 +49,12 @@ section{padding:72px 0}
 .topbar .right a.hot{color:var(--orange-light);font-weight:600}
 nav.main{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
 nav.main .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:20px}
-.logo{display:flex;align-items:center;gap:12px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:-.02em}
-.logo .mark{width:40px;height:40px;border-radius:10px;background:var(--navy);display:flex;align-items:center;justify-content:center}
+.logo{display:flex;align-items:center;gap:12px}
+.logo img{width:40px;height:40px;padding:9px;box-sizing:border-box;border-radius:11px;background:var(--navy);box-shadow:0 0 0 1px rgba(242,107,29,.18),0 0 18px rgba(242,107,29,.28)}
+.logo .word{font-family:'Manrope','Space Grotesk',sans-serif;font-weight:800;font-size:24px;letter-spacing:-.04em;color:var(--navy);line-height:1}
+.logo .word em{font-style:normal;color:#F26B1D}
+.logo-dark .word{color:#fff}
+.logo-dark img{width:34px;height:34px;padding:8px;background:#fff;box-shadow:none}
 .navlinks{display:none;gap:32px;font-size:15px;font-weight:500}
 .navlinks a:hover{color:var(--orange)}
 .navcta{display:flex;gap:10px}
@@ -174,7 +178,7 @@ nav.main .wrap{display:flex;align-items:center;justify-content:space-between;hei
 .side{display:none;background:var(--app-side);border-right:1px solid var(--app-line);padding:18px 14px;flex-direction:column;gap:6px}
 @media(min-width:1024px){.side{display:flex}}
 .side .brand{display:flex;align-items:center;gap:10px;padding:0 6px 12px}
-.side .brand b{width:30px;height:30px;border-radius:9px;background:var(--purple);display:flex;align-items:center;justify-content:center;font-size:11px;color:#fff}
+.side .brand b{width:30px;height:30px;border-radius:9px;background:var(--navy);display:flex;align-items:center;justify-content:center}
 .side .brand small{display:block;font-size:11px;color:var(--app-muted)}
 .side .h{font-size:11px;color:var(--app-muted);padding:10px 6px 2px}
 .side .it{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-radius:9px;color:var(--app-text-2);border:1px solid transparent}
